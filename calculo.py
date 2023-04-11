@@ -107,4 +107,38 @@ print("Lista ordenada:", lista_ordenada)
 print("A mediana da lista é:", mediana)
 
 
+print('*' * 50)
+print('Expressões')
+
+# a) criem uma nova lista e atribuam a uma variável chamada romanos, contendo as
+# strings 'Julius', 'Augustus', 'Brutus' e 'Cassius'.
+#
+# b) criem uma lista e atribuam a uma variável chamda ingleses, contendo as
+# strings 'Dickens', 'Austen', 'Henry' e 'Elizabeth'.
+#
+# c) criem uma lista e atribuam a uma variável chamada governantes, que contém
+# os dois primeiros elementos da lista romanos e
+# os dois últimos elementos da lista ingleses. Use expressões de manipulação de
+# lista; não copie os dados apenas manualmente.
+# Orientações Adicionais
+
+print('*' * 50)
+print('Resolução a)')
+
+romanos = ['Julius', 'Augustus', 'Brutus','Cassius']
+print(romanos)
+
+print('*' * 50)
+print('Resolução b')
+
+ingleses = ['Dickens','Austen','Henry','Elizabeth']
+print(ingleses)
+
+print('*' * 50)
+print('Resolução c')
+# ressalto a regra de exclusivo, nesse caso para aparecer os dois primeiros
+# preciso ir até o terceiro para selecionar os dois primeiros
+nova_list = romanos[0:2] + ingleses[2:4]
+print(nova_list)
+
 

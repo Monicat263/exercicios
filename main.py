@@ -27,6 +27,7 @@ g = 5 / 2
 h = [5, 2, 1]
 i = 5 in [1, 4, 6]
 
+
 print('{} é do tipo {}'.format(a, type(a)))
 print('{} é do tipo {}'.format(b, type(b)))
 print('{} é do tipo {}'.format(c, type(c)))
@@ -36,6 +37,7 @@ print('{} é do tipo {}'.format(g, type(g)))
 print('{} é do tipo {}'.format(h, type(h)))
 print('{} é do tipo {}'.format(i, type(i)))
 print('*'* 30)
+
 
 print('# Também posso resolver com a função format ')
 print('# e utilizar  a tupla')
