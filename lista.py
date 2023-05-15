@@ -18,8 +18,8 @@ nome_meio = dados[1]
 concatenacao_nome_meio = nome_meio[0] + '.'
 #print(concatenacao_nome_meio)
 
-concatencao_nome = dados[0] + ', ' + dados[2 ] + ' '+ concatenacao_nome_meio
-print(concatencao_nome)
+concat_nome = dados[2] + ', '+ dados[0] + ' ' + concatenacao_nome_meio
+print(concat_nome)
 
 print('*' * 50)
 print('Resolução lista 2,segunda opção para resolver a questão a),usando join')
@@ -30,13 +30,14 @@ dados = ['Pedro', 'Alvares', 'Cabral']
 nome_completo = ' '.join(dados)
 
 '''Extrair o sobrenome, nesse caso a função slipt esta intriseca'''
+nome = dados[0]
 sobrenome = dados[-1]
-nome_meio = dados[1]
+
+nome_meio = dados[1][0]
 
 '''Formatação da saída de acordo com o que necessito'''
 
-nome_meio_formatado = nome_meio[0] + '.'
-resultado_nome = f'{sobrenome},{dados[0]} {nome_meio_formatado}'
+resultado_nome = f'{sobrenome},{nome} {nome_meio}.'
 
 print(resultado_nome)
 
